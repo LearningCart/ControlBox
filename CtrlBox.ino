@@ -19,8 +19,6 @@ String Cmd;
 // the loop routine runs over and over again forever:
 void loop() {
   char Command[4];
-  // read the input on analog pin 0:
-  // print out the value you read:
   Serial.print("ctrlbox@com # ");
 
   while (Serial.available() == 0)
